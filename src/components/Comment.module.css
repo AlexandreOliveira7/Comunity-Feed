@@ -1,0 +1,90 @@
+.comment {
+  display: flex;
+  gap: 1.6rem;
+}
+
+.comment + .comment {
+  margin-top: 2.6rem;
+}
+.contentComment {
+  margin-bottom: 2.6rem; 
+  width: 68.6rem;
+  height: 12rem;
+  background: var(--gray-700);
+  border-radius: 8px;
+
+  padding: 1.6rem 1.6rem 2.5rem 1.6rem;
+}
+
+.deleteIcon {
+  display: flex;
+  justify-content: space-between;
+  
+}
+
+.infoComment {
+  color: var(--gray-300);
+  font-weight: bold;
+  line-height: 1.6;
+  font-size: 1.4rem;
+
+}
+
+.time {
+  color: var(--gray-400);
+  font-weight: 400;
+  line-height: 1.6;
+  font-size: 1.2rem;
+}
+
+.content {
+  margin-top: 1.6rem;
+  color: var(--gray-300);
+  font-weight: 400;
+  line-height: 1.6;
+  font-size: 1.4rem;
+}
+
+.deleteIcon button {
+  background: transparent;
+  border: 0;
+  border-radius: 4px;
+  color: var(--gray-400);
+  cursor: pointer;
+  box-shadow: none;
+  
+
+  margin-top: -3rem;
+  font-size: 0;
+}
+
+.deleteIcon button:hover {
+  color: var(--red-500);
+}
+
+.likebox {
+  margin-top: 1.6rem;
+}
+
+.likebox button {
+  background: transparent;
+  border: 0;
+  color: var(--gray-400);
+  cursor: pointer;
+
+  display: flex;
+  align-items: center;
+}
+
+.likebox button:hover {
+  color: var(--green-300);
+}
+
+.likebox button svg {
+  margin-right: 0.8rem;
+}
+
+.likebox button span::before {
+  content: "\2022";
+  padding: 0 0.4rem;
+}
