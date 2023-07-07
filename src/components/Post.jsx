@@ -1,5 +1,6 @@
 import styles from './Post.module.css'
 import { Avatar } from './Avatar'
+import { Comment } from './Comment'
 
 export function Post() {
   return(
@@ -36,6 +37,10 @@ export function Post() {
         </button>
       </footer>
     </form>
+      <div className={styles.commmentContainer}>
+        <Comment/>
+        <Comment/>
+      </div>
     </article>
   )
 }

@@ -133,3 +133,7 @@ header {
 .commentForm button[type=submit]:hover {
   background: var(--green-300);
 }
+
+.commmentContainer {
+  margin-top: 3.2rem;
+}
