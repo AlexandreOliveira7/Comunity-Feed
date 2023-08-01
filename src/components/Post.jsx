@@ -8,7 +8,7 @@ export function Post() {
 
     <header>
       <div className={styles.profile}>
-        <Avatar src="https://github.com/itsBinho.png"/>
+        <Avatar hasBorder src="https://github.com/itsBinho.png"/>
         <div className={styles.infoProfile}>
           <strong>Robson Silva</strong>
           <span>Dev Front-End</span>
