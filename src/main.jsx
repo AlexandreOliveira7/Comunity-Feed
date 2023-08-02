@@ -51,6 +51,7 @@ ReactDOM.createRoot(document.getElementById('root')).render(
       {posts.map(post => {
         return (
           <Post
+          key={post.id}
           author={post.author}
           publishedAt={post.publishedAt}
           content={post.content}
